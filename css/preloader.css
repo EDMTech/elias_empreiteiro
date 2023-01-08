@@ -1,0 +1,51 @@
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 4;
+}
+#preloader .inner{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(50%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsividade do PreLoader */
+@media (max-width: 1000px){
+    #preloader .inner{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        transform: translate(50%, 50%);
+    }
+}
+@media (max-width: 800px){
+    #preloader .inner{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        transform: translate(50%, 50%);
+    }
+}
+@media (max-width: 500px){
+    #preloader .inner{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        transform: translate(50%, 50%);
+    }
+}
+@media (max-width: 430px){
+    #preloader .inner{
+        position: absolute;
+        top: 25%;
+        transform: translate(30%, 40%);
+    }
+}

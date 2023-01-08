@@ -1,0 +1,192 @@
+@media (max-width: 1200px){
+    /* Segunda Sessão */
+    .segunda .column{
+        flex-direction: column;
+        width: 90%;
+    }
+    .segunda .left h1{
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    .segunda .left span{
+        font-size: 20px;
+    }
+    /* Divisão dos lados */
+    .segunda .left{
+        flex: 1 1 0rem;
+    }
+    .segunda .right{
+        flex: 1 1 25rem;
+    }
+}
+@media (max-width: 800px){
+    /* Menu Mobile */
+    .sidebar .menu .nav-item ion-icon{
+        display: block;
+        font-size: 20px;
+        color: rgb(31, 37, 31);
+    }
+    .sidebar .menu .nav-item.active {
+        background-color: rgba(40, 7, 129, 0.473);
+        padding: 5px;
+        border-radius: 20px;
+        border: 1px solid whitesmoke;
+    }
+    .sidebar .menu .nav-item ion-icon:hover{
+        transform: translateY(-2px);
+    }
+    .sidebar .menu .nav-item.active:hover ion-icon,
+    .sidebar .menu .nav-item.active ion-icon{
+        color: whitesmoke;
+    }
+
+    /* Desativar Nav-item */
+    .sidebar .menu .nav-item p{
+        display: none;
+    }
+
+    .primeira .primeira-content{
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    .primeira .main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: 0 20px;
+    }
+    .primeira .main h1{
+        font-size: 35px;
+    }
+    .primeira .main p{
+        font-size: 13px;
+    }
+
+    .terceira .caixa .tabs .tab-header{
+        width: 100%;
+        position: relative;
+        white-space: nowrap;
+        height: 70px;
+    }
+    
+    /* Barra Scroll */
+    .terceira .caixa .tabs .tab-header::-webkit-scrollbar{
+        width: 0px;
+        height: 8px;
+    }
+    .terceira .caixa .tabs .tab-header::-webkit-scrollbar-thumb{
+        background: rgba(245, 245, 245, 0.61);
+    }
+    .terceira .caixa .tabs .tab-header::-webkit-scrollbar-thumb:hover{
+        background: rgba(196, 224, 241, 0.4);
+    }
+    .terceira .caixa .tabs .tab-header > div{
+        width: 100%;
+        margin: auto 20px;
+    }
+    .terceira .caixa .tabs .tab-header > div p{
+        padding: 0 20px;
+    }
+
+    .terceira .caixa .tabs .tab-content{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 450px;
+    }
+    .terceira .caixa .tabs .tab-content > div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .terceira .caixa .tabs .tab-content > div .text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin: 10px;
+    }
+
+    .quarta .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .quarta .column .map{
+        flex: 1 1 15rem;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .quarta .column form{
+        flex: 1 1 10rem;
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .footer .max-width{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 430px){
+    /* Sidebar */
+    .sidebar{
+        position: fixed;
+        top: 5%;
+    }
+    /* Menu */
+    .sidebar .logo .logo-fundo{
+        display: none;
+    }
+    .sidebar .menu .nav-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+    }
+    .sidebar .menu li{
+        padding: 0 10px;
+    }
+
+    /* Primeira */
+    .primeira .atendimento p{
+        font-size: 8px;
+        color: whitesmoke;
+    }
+    .primeira .atendimento .redes ion-icon{
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    .primeira .main{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        align-items: flex-end;
+        justify-content: center;
+        width: 98%;
+        height: 100%;
+        padding: 0;
+    }
+    .primeira .main h1{
+        font-size: 30px;
+    }
+    .primeira .main p{
+        font-size: 13px;
+    }
+
+    .segunda .column .right .container .cards{
+        width: 300px;
+    }
+}
